@@ -10,7 +10,7 @@ keybinds {
         bind "Ctrl p" { SwitchToMode "Pane"; }
         bind "Ctrl t" { SwitchToMode "Tab"; }
         bind "Ctrl r" { SwitchToMode "Resize"; }
-        bind "Ctrl h" { SwitchToMode "Move"; }
+        bind "Ctrl y" { SwitchToMode "Move"; }
         bind "Ctrl w" { SwitchToMode "Search"; }
         bind "Ctrl o" { SwitchToMode "Session"; }
         bind "Alt n" { NewPane; }
