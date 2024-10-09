@@ -9,7 +9,7 @@ keybinds {
         bind "Ctrl w" { SwitchToMode "Search"; }
         bind "Ctrl p" { SwitchToMode "Pane"; }
         bind "Ctrl t" { SwitchToMode "Tab"; }
-        bind "Ctrl y" { SwitchToMode "Resize"; }
+        bind "Ctrl r" { SwitchToMode "Resize"; }
         bind "Ctrl h" { SwitchToMode "Move"; }
         bind "Ctrl w" { SwitchToMode "Search"; }
         bind "Ctrl o" { SwitchToMode "Session"; }
