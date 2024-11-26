@@ -12,7 +12,7 @@ keybinds {
         bind "Ctrl n" { SwitchToMode "Resize"; }
         bind "Ctrl y" { SwitchToMode "Move"; }
         bind "Ctrl w" { SwitchToMode "Search"; }
-        bind "Ctrl o" { SwitchToMode "Session"; }
+        //bind "Ctrl o" { SwitchToMode "Session"; }
         bind "Alt n" { NewPane; }
         bind "Alt h" { MoveFocus "Left"; }
         bind "Alt j" { MoveFocus "Down"; }
