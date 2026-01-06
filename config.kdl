@@ -157,7 +157,7 @@ keybinds clear-defaults=true {
         bind "Ctrl p" { SwitchToMode "pane"; }
     }
     shared_except "locked" "resize" {
-        bind "Ctrl n" { SwitchToMode "resize"; }
+        bind "Ctrl x" { SwitchToMode "resize"; }
     }
     shared_except "normal" "locked" {
         bind "Alt left" { MoveFocusOrTab "left"; }
