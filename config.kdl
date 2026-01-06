@@ -14,6 +14,7 @@ keybinds clear-defaults=true {
         bind "Alt u" { Resize "Decrease"; }
         bind "Ctrl w" { SwitchToMode "search"; }
         bind "Ctrl y" { SwitchToMode "move"; }
+        bind "Ctrl o" { SwitchToMode "session"; }
     }
     locked {
         bind "Ctrl g" { SwitchToMode "normal"; }
@@ -178,9 +179,7 @@ keybinds clear-defaults=true {
     shared_except "normal" "locked" "move" {
         bind "Ctrl h" { SwitchToMode "move"; }
     }
-    shared_except "normal" "locked" "session" {
-        bind "Ctrl o" { SwitchToMode "session"; }
-    }
+
     shared_except "normal" "locked" "entersearch" {
         bind "enter" { SwitchToMode "normal"; }
     }
