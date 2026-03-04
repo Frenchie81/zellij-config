@@ -14,7 +14,7 @@ keybinds clear-defaults=true {
         bind "Alt u" { Resize "Decrease"; }
         bind "Ctrl w" { SwitchToMode "search"; }
         bind "Ctrl y" { SwitchToMode "move"; }
-        bind "Ctrl o" { SwitchToMode "session"; }
+        bind "Alt s" { SwitchToMode "session"; }
     }
     locked {
         bind "Ctrl g" { SwitchToMode "normal"; }
@@ -128,7 +128,7 @@ keybinds clear-defaults=true {
             }
             SwitchToMode "normal"
         }
-        bind "Ctrl o" { SwitchToMode "normal"; }
+        bind "Alt s" { SwitchToMode "normal"; }
         bind "p" {
             LaunchOrFocusPlugin "plugin-manager" {
                 floating true
